@@ -4,135 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rehaman Shaik - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            line-height: 1.6;
-        }
-        header, footer {
-            background-color: #007bff;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        section {
-            padding: 2rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Header -->
     <header>
-        <h1>Rehaman Shaik</h1>
-        <p>Data Scientist and Analyst | Andhra Pradesh, India</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="header-content">
+            <img src="Photograph.jpg" alt="Rehaman Shaik" class="profile-photo">
+            <h1>Rehaman Shaik</h1>
+            <p>Data Scientist | Machine Learning Enthusiast | Analyst</p>
+            <p>📍 Andhra Pradesh, India | 📧 <a href="mailto:rehamanshaik437@gmail.com">rehamanshaik437@gmail.com</a></p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/shaik-rehaman-1bb635250">LinkedIn</a> |
+                <a href="https://github.com/rehamanshaik01">GitHub</a>
+            </div>
+        </div>
     </header>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a dedicated Data Scientist with a strong foundation in machine learning, data analysis, and business intelligence. Experienced in Python, SQL, Power BI, and Tableau, I specialize in transforming raw data into actionable insights that drive strategic decisions. I thrive in collaborative, fast-paced environments and maintain accuracy and quality in all data processes.
-        </p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Data Science:</strong> Data Cleaning, Statistical Analysis, Data Wrangling, Feature Engineering, Data Pipelines</li>
-            <li><strong>Machine Learning:</strong> Supervised and Unsupervised Learning, Model Training, Ensemble Methods, Evaluation Metrics</li>
-            <li><strong>Artificial Intelligence:</strong> Deep Learning, Generative AI, Computer Vision, NLP, Image Processing</li>
-            <li><strong>Programming:</strong> Python, R, SQL</li>
-            <li><strong>Data Visualization:</strong> Power BI, Tableau, Matplotlib, Seaborn</li>
-            <li><strong>Data Processing Tools:</strong> Jupyter Notebook, Scikit-Learn, Keras, NLTK, OpenCV</li>
-            <li><strong>Database Management:</strong> SQL Server, MySQL</li>
-            <li><strong>Business Intelligence:</strong> Dashboard Creation, Data-driven Insights, Reporting, Trend Analysis</li>
-        </ul>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <h2>Experience</h2>
-        <h3>Data Scientist Intern</h3>
-        <p><strong>AI VARIANT</strong> - Hyderabad (August 2023 - February 2024)</p>
-        <ul>
-            <li>Developed data pipelines for analysis and integrated Power BI dashboards for real-time reporting.</li>
-            <li>Collaborated with cross-functional teams to implement data-driven solutions aligning with business objectives.</li>
-            <li>Enhanced analytical models through iterative data processing and performance optimization.</li>
-        </ul>
-        <h3>Data Analyst (Virtual Internship)</h3>
-        <p><strong>KPMG</strong> (June 2023 - October 2023)</p>
-        <ul>
-            <li>Processed and analyzed large datasets to extract meaningful insights, ensuring data accuracy and consistency.</li>
-            <li>Developed interactive Power BI dashboards to visualize key business metrics and trends.</li>
-            <li>Automated reporting processes using advanced Excel and Python, reducing reporting time by 30%.</li>
-        </ul>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <h3>Enhancing Combined-Cycle Power Plant Performance</h3>
-        <p>Analyzed operational data using Python and Power BI to optimize energy efficiency, resulting in actionable recommendations for improved performance.</p>
-        <h3>Global Development Clustering Analysis</h3>
-        <p>Utilized Python and Power BI for exploratory data analysis, identifying socio-economic patterns across countries and presenting findings through interactive dashboards.</p>
-        <h3>Sales Performance Dashboard</h3>
-        <p>Designed a Power BI dashboard to track sales performance metrics, enabling stakeholders to make informed decisions based on real-time data.</p>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>Data Science Certification</strong>, ExcelR Solutions, Hyderabad (2024)</p>
-        <p>Relevant Coursework: Machine Learning, Python, SQL, Data Analytics, Data Visualization, Power BI</p>
-        <p><strong>Bachelor of Mechanical Engineering</strong>, Pragati Engineering College (2020 - 2023)</p>
-        <p><strong>Diploma in Mechanical Engineering</strong>, Andhra Polytechnic, Kakinada (2017 - 2020)</p>
-    </section>
-
-    <!-- Certifications Section -->
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Azure Data Scientist Associate - Microsoft Azure</li>
-            <li>Data Science - IBM</li>
-            <li>Introduction to Data Science - Infosys</li>
-            <li>Python Certification</li>
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:rehamanshaik437@gmail.com">rehamanshaik437@gmail.com</a></p>
-        <p>Location: Andhra Pradesh, India</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/shaik-rehaman-1bb635250/">Shaik Rehaman</a></p>
-        <p>GitHub: <a href="https://github.com/rehamanshaik01">github.com/rehamanshaik01</a></p>
-    </section>
-
-    <!-- Footer -->
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Dedicated Data Scientist with expertise in Python, SQL, Power BI, and more. Skilled in transforming raw data into actionable insights.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Enhancing Combined-Cycle Power Plant Performance</h3>
+                <p>Data analysis to optimize energy efficiency using Python and Power BI.</p>
+            </div>
+            <div class="project">
+                <h3>Global Development Clustering Analysis</h3>
+                <p>Socio-economic pattern analysis across countries using Python and Power BI.</p>
+            </div>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Data Scientist Intern, AI VARIANT</h3>
+                <p>Built data pipelines and Power BI dashboards for real-time reporting.</p>
+            </div>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Rehaman Shaik | All Rights Reserved</p>
+        <p>&copy; 2024 Rehaman Shaik</p>
     </footer>
-
 </body>
 </html>
